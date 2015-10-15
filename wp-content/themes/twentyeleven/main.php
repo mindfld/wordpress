@@ -288,7 +288,7 @@ get_header(); ?>
 							<? the_post_thumbnail('proj'); ?>
 							<? the_title(); ?>
 						</li>
-						<? } ?>
+						<?php } ?>
 						<?php endwhile; wp_reset_query(); ?>
                     </ul>
                 </div>

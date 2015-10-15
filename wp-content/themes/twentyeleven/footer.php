@@ -14,16 +14,7 @@
 <footer id="colophon" role="contentinfo">
 	<div class="block-inner">
 		<div class="dev">
-			<?php if(get_locale() == 'ru_RU') { ?>
-				Создано в студии<br>
-			<?php } elseif(get_locale() == 'en_US') { ?>
-				Created in the studio<br>
-			<?php } else { ?>
-				Створено в студії<br>
-			<?php } ?>
-			<a target="_blank" href="http://trendline.in.ua">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/trendline.png" alt="trendline">
-			</a>
+
 		</div>
 		<div class="footer-menu">
 			<?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
